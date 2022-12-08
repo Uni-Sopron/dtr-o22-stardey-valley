@@ -1,8 +1,9 @@
-param day_count := 28;
+param day_count := 6;
 
-param plot_count := 1;
+param plot_count := 3;
 
 set Crops := Parsnip Cauliflower;
+set Workers := Balazs Jozsi;
 
 param growth_time := 
 	Parsnip			4
