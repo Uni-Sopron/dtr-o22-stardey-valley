@@ -26,11 +26,9 @@ s.t. Set_growing{d in Days, c in Crops}: growing[d, c] >= planted_in_past[d, c];
 
 s.t. Cant_grow_more_than_number_of_plots{d in Days}: sum{c in Crops} growing[d, c] <= plot_count;
 
-#s.t. If_growing_cant_plant_another{d in Days, c in Crops}: planted[d, c] <= 1 - growing[d, c];
+s.t. Set_grown{d in Days, c in Crops: d > growth_time[c]}: grown[d, c] <= planted[d - growth_time[c], c];
 
-s.t. Set_grown{d in Days, c in Crops: d > growth_time[c] + 1}: grown[d, c] <= planted[d - growth_time[c] - 1, c];
-
-s.t. Set_grown_in_first_days{d in Days, c in Crops: d <= growth_time[c] + 1}: grown[d, c] <= 0;
+s.t. Set_grown_in_first_days{d in Days, c in Crops: d <= growth_time[c]}: grown[d, c] <= 0;
 
 maximize Profit: sum{d in Days, c in Crops} (grown[d, c] * selling_price[c] - planted[d, c] * purchase_price[c]);
 solve;
@@ -43,7 +41,7 @@ for{d in Days}
 	
 	for{c in Crops}
 	{
-		printf "\nPlanting %s: %d\n", c, planted[d, c];
+		printf "\nPlanted %s: %d\n", c, planted[d, c];
 		printf "Growing %s: %d\n", c, growing[d, c];
 		printf "Grown %s: %d\n", c, grown[d, c];
 	}
