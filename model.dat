@@ -1,4 +1,6 @@
-param day_count := 19;
+param day_count := 6;
+
+param plot_count := 100;
 
 set Crops := Parsnip Cauliflower;
 

@@ -3,26 +3,30 @@ set Crops;
 param day_count integer >=0;
 set Days := 1..day_count;
 
+param plot_count;
+
 param growth_time{Crops};
 param purchase_price{Crops};
 param selling_price{Crops};
 
-var planted{Days, Crops} binary;
+var planted{Days, Crops} integer >=0;
 var planted_in_past{Days, Crops} integer >=0;
-var growing{Days, Crops} binary;
-var grown{Days, Crops} binary;
+var growing{Days, Crops} integer >=0;
+var grown{Days, Crops} integer >=0;
 
-s.t. Cant_plant_something_if_growing{d in Days}: sum{c in Crops} planted[d, c] <= 1 - sum{c in Crops} growing[d, c];
+var available_plots{Days} integer >=0;
 
-s.t. Cant_plant_more_than_one_crop_at_a_time{d in Days}: sum{c in Crops} planted[d, c] <= 1;
+s.t. Set_available_plots{d in Days}: available_plots[d] = plot_count - sum{c in Crops} growing[d, c]; 
 
-s.t. Set_planted_in_past{d in Days, c in Crops}: planted_in_past[d, c] = sum{d2 in Days: d2 < d && d2 > (d - growth_time[c] - 1)} planted[d2, c];
+s.t. Cant_plant_more_than_available_plots{d in Days}: sum{c in Crops} planted[d, c] <= available_plots[d];
+
+s.t. Set_planted_in_past{d in Days, c in Crops}: planted_in_past[d, c] = sum{d2 in Days: d2 < d && d2 > (d - growth_time[c])} planted[d2, c];
 
 s.t. Set_growing{d in Days, c in Crops}: growing[d, c] >= planted_in_past[d, c];
 
-s.t. Cant_grow_more_than_one_crop_at_a_time{d in Days}: sum{c in Crops} growing[d, c] <= 1;
+s.t. Cant_grow_more_than_number_of_plots{d in Days}: sum{c in Crops} growing[d, c] <= plot_count;
 
-s.t. If_growing_cant_plant_another{d in Days, c in Crops}: planted[d, c] <= 1 - growing[d, c];
+#s.t. If_growing_cant_plant_another{d in Days, c in Crops}: planted[d, c] <= 1 - growing[d, c];
 
 s.t. Set_grown{d in Days, c in Crops: d > growth_time[c] + 1}: grown[d, c] <= planted[d - growth_time[c] - 1, c];
 
