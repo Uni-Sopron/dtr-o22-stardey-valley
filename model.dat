@@ -1,8 +1,7 @@
 param day_count := 28;
-
 param plot_count := 100;
-
-param worker_count := 1;
+param worker_count := 5;
+param initial_money := 1000;
 
 set Crops := Parsnip Cauliflower;
 
