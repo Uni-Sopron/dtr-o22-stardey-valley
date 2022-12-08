@@ -1,17 +1,18 @@
-set Plants := Parsnip Cauliflower;
-set Days := 0 1 2 3 4 5 6 7 8 9 10 11 12;
+param day_count := 19;
 
-param initial_money := 1000;
+set Crops := Parsnip Cauliflower;
 
-param purchase_price{Plants} :=
-	Parsnip 		20
-	Cauliflower 	80
-	;
-param selling_price{Plants} :=
-	Parsnip 		35
-	Cauliflower 	175
-	;
-param growth_time{Plants} := 
+param growth_time := 
 	Parsnip			4
 	Cauliflower		12
+	;
+
+param purchase_price := 
+	Parsnip			20
+	Cauliflower		80
+	;
+
+param selling_price := 
+	Parsnip			35
+	Cauliflower		175
 	;
