@@ -1,466 +1,858 @@
 Problem:    model
-Rows:       225
-Columns:    200 (200 integer, 0 binary)
-Non-zeros:  887
+Rows:       421
+Columns:    375 (375 integer, 0 binary)
+Non-zeros:  2129
 Status:     INTEGER OPTIMAL
-Objective:  Profit = 15 (MAXimum)
+Objective:  Profit = 225 (MAXimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 Set_available_money[1]
-                                1000          1000             = 
+                                 100           100             = 
      2 Set_available_money[2]
-                                1000          1000             = 
+                                 100           100             = 
      3 Set_available_money[3]
-                                1000          1000             = 
+                                 100           100             = 
      4 Set_available_money[4]
-                                1000          1000             = 
+                                 100           100             = 
      5 Set_available_money[5]
-                                1000          1000             = 
+                                 100           100             = 
      6 Set_available_money[6]
-                                1000          1000             = 
+                                 100           100             = 
      7 Set_available_money[7]
-                                1000          1000             = 
+                                 100           100             = 
      8 Set_available_money[8]
-                                1000          1000             = 
-     9 Set_available_workers[1]
-                                   1             1             = 
-    10 Set_available_workers[2]
-                                   1             1             = 
-    11 Set_available_workers[3]
-                                   1             1             = 
-    12 Set_available_workers[4]
-                                   1             1             = 
-    13 Set_available_workers[5]
-                                   1             1             = 
-    14 Set_available_workers[6]
-                                   1             1             = 
-    15 Set_available_workers[7]
-                                   1             1             = 
-    16 Set_available_workers[8]
-                                   1             1             = 
-    17 Set_available_plots[1]
-                                   1             1             = 
-    18 Set_available_plots[2]
-                                   1             1             = 
-    19 Set_available_plots[3]
-                                   1             1             = 
-    20 Set_available_plots[4]
-                                   1             1             = 
-    21 Set_available_plots[5]
-                                   1             1             = 
-    22 Set_available_plots[6]
-                                   1             1             = 
-    23 Set_available_plots[7]
-                                   1             1             = 
-    24 Set_available_plots[8]
-                                   1             1             = 
-    25 Cant_harvest_more_than_grown[1,Parsnip]
+                                 100           100             = 
+     9 Set_available_money[9]
+                                 100           100             = 
+    10 Set_available_money[10]
+                                 100           100             = 
+    11 Set_available_money[11]
+                                 100           100             = 
+    12 Set_available_money[12]
+                                 100           100             = 
+    13 Set_available_money[13]
+                                 100           100             = 
+    14 Set_available_money[14]
+                                 100           100             = 
+    15 Set_available_money[15]
+                                 100           100             = 
+    16 Set_available_workers[1]
+                                   5             5             = 
+    17 Set_available_workers[2]
+                                   5             5             = 
+    18 Set_available_workers[3]
+                                   5             5             = 
+    19 Set_available_workers[4]
+                                   5             5             = 
+    20 Set_available_workers[5]
+                                   5             5             = 
+    21 Set_available_workers[6]
+                                   5             5             = 
+    22 Set_available_workers[7]
+                                   5             5             = 
+    23 Set_available_workers[8]
+                                   5             5             = 
+    24 Set_available_workers[9]
+                                   5             5             = 
+    25 Set_available_workers[10]
+                                   5             5             = 
+    26 Set_available_workers[11]
+                                   5             5             = 
+    27 Set_available_workers[12]
+                                   5             5             = 
+    28 Set_available_workers[13]
+                                   5             5             = 
+    29 Set_available_workers[14]
+                                   5             5             = 
+    30 Set_available_workers[15]
+                                   5             5             = 
+    31 Set_available_plots[1]
+                                 100           100             = 
+    32 Set_available_plots[2]
+                                 100           100             = 
+    33 Set_available_plots[3]
+                                 100           100             = 
+    34 Set_available_plots[4]
+                                 100           100             = 
+    35 Set_available_plots[5]
+                                 100           100             = 
+    36 Set_available_plots[6]
+                                 100           100             = 
+    37 Set_available_plots[7]
+                                 100           100             = 
+    38 Set_available_plots[8]
+                                 100           100             = 
+    39 Set_available_plots[9]
+                                 100           100             = 
+    40 Set_available_plots[10]
+                                 100           100             = 
+    41 Set_available_plots[11]
+                                 100           100             = 
+    42 Set_available_plots[12]
+                                 100           100             = 
+    43 Set_available_plots[13]
+                                 100           100             = 
+    44 Set_available_plots[14]
+                                 100           100             = 
+    45 Set_available_plots[15]
+                                 100           100             = 
+    46 Cant_harvest_more_than_grown[1,Parsnip]
                                    0                          -0 
-    26 Cant_harvest_more_than_grown[1,Cauliflower]
+    47 Cant_harvest_more_than_grown[1,Cauliflower]
                                    0                          -0 
-    27 Cant_harvest_more_than_grown[2,Parsnip]
+    48 Cant_harvest_more_than_grown[2,Parsnip]
                                    0                          -0 
-    28 Cant_harvest_more_than_grown[2,Cauliflower]
+    49 Cant_harvest_more_than_grown[2,Cauliflower]
                                    0                          -0 
-    29 Cant_harvest_more_than_grown[3,Parsnip]
+    50 Cant_harvest_more_than_grown[3,Parsnip]
                                    0                          -0 
-    30 Cant_harvest_more_than_grown[3,Cauliflower]
+    51 Cant_harvest_more_than_grown[3,Cauliflower]
                                    0                          -0 
-    31 Cant_harvest_more_than_grown[4,Parsnip]
+    52 Cant_harvest_more_than_grown[4,Parsnip]
                                    0                          -0 
-    32 Cant_harvest_more_than_grown[4,Cauliflower]
+    53 Cant_harvest_more_than_grown[4,Cauliflower]
                                    0                          -0 
-    33 Cant_harvest_more_than_grown[5,Parsnip]
+    54 Cant_harvest_more_than_grown[5,Parsnip]
+                                  -5                          -0 
+    55 Cant_harvest_more_than_grown[5,Cauliflower]
                                    0                          -0 
-    34 Cant_harvest_more_than_grown[5,Cauliflower]
+    56 Cant_harvest_more_than_grown[6,Parsnip]
                                    0                          -0 
-    35 Cant_harvest_more_than_grown[6,Parsnip]
+    57 Cant_harvest_more_than_grown[6,Cauliflower]
+                                   0                          -0 
+    58 Cant_harvest_more_than_grown[7,Parsnip]
+                                   0                          -0 
+    59 Cant_harvest_more_than_grown[7,Cauliflower]
+                                   0                          -0 
+    60 Cant_harvest_more_than_grown[8,Parsnip]
+                                   0                          -0 
+    61 Cant_harvest_more_than_grown[8,Cauliflower]
+                                   0                          -0 
+    62 Cant_harvest_more_than_grown[9,Parsnip]
                                   -1                          -0 
-    36 Cant_harvest_more_than_grown[6,Cauliflower]
+    63 Cant_harvest_more_than_grown[9,Cauliflower]
                                    0                          -0 
-    37 Cant_harvest_more_than_grown[7,Parsnip]
+    64 Cant_harvest_more_than_grown[10,Parsnip]
+                                  -2                          -0 
+    65 Cant_harvest_more_than_grown[10,Cauliflower]
+                                   0                          -0 
+    66 Cant_harvest_more_than_grown[11,Parsnip]
+                                  -6                          -0 
+    67 Cant_harvest_more_than_grown[11,Cauliflower]
+                                   0                          -0 
+    68 Cant_harvest_more_than_grown[12,Parsnip]
                                   -1                          -0 
-    38 Cant_harvest_more_than_grown[7,Cauliflower]
+    69 Cant_harvest_more_than_grown[12,Cauliflower]
                                    0                          -0 
-    39 Cant_harvest_more_than_grown[8,Parsnip]
+    70 Cant_harvest_more_than_grown[13,Parsnip]
                                    0                          -0 
-    40 Cant_harvest_more_than_grown[8,Cauliflower]
+    71 Cant_harvest_more_than_grown[13,Cauliflower]
                                    0                          -0 
-    41 Cant_spend_more_than_currently_available_money[1]
-                                -980                          -0 
-    42 Cant_spend_more_than_currently_available_money[2]
-                                -980                          -0 
-    43 Cant_spend_more_than_currently_available_money[3]
-                                -980                          -0 
-    44 Cant_spend_more_than_currently_available_money[4]
-                                -980                          -0 
-    45 Cant_spend_more_than_currently_available_money[5]
-                                -980                          -0 
-    46 Cant_spend_more_than_currently_available_money[6]
-                                -980                          -0 
-    47 Cant_spend_more_than_currently_available_money[7]
-                                -980                          -0 
-    48 Cant_spend_more_than_currently_available_money[8]
-                               -1015                          -0 
-    49 Cant_plant_or_harvest_more_than_available_workers[1]
+    72 Cant_harvest_more_than_grown[14,Parsnip]
+                                  -3                          -0 
+    73 Cant_harvest_more_than_grown[14,Cauliflower]
                                    0                          -0 
-    50 Cant_plant_or_harvest_more_than_available_workers[2]
-                                  -1                          -0 
-    51 Cant_plant_or_harvest_more_than_available_workers[3]
-                                  -1                          -0 
-    52 Cant_plant_or_harvest_more_than_available_workers[4]
-                                  -1                          -0 
-    53 Cant_plant_or_harvest_more_than_available_workers[5]
-                                  -1                          -0 
-    54 Cant_plant_or_harvest_more_than_available_workers[6]
-                                  -1                          -0 
-    55 Cant_plant_or_harvest_more_than_available_workers[7]
-                                  -1                          -0 
-    56 Cant_plant_or_harvest_more_than_available_workers[8]
-                                  -1                          -0 
-    57 Cant_plant_more_than_available_plots[1]
+    74 Cant_harvest_more_than_grown[15,Parsnip]
                                    0                          -0 
-    58 Cant_plant_more_than_available_plots[2]
+    75 Cant_harvest_more_than_grown[15,Cauliflower]
                                    0                          -0 
-    59 Cant_plant_more_than_available_plots[3]
+    76 Cant_spend_more_than_currently_available_money[1]
                                    0                          -0 
-    60 Cant_plant_more_than_available_plots[4]
+    77 Cant_spend_more_than_currently_available_money[2]
                                    0                          -0 
-    61 Cant_plant_more_than_available_plots[5]
+    78 Cant_spend_more_than_currently_available_money[3]
                                    0                          -0 
-    62 Cant_plant_more_than_available_plots[6]
+    79 Cant_spend_more_than_currently_available_money[4]
                                    0                          -0 
-    63 Cant_plant_more_than_available_plots[7]
-                                  -1                          -0 
-    64 Cant_plant_more_than_available_plots[8]
-                                  -1                          -0 
-    65 Set_started_planting_in_past[1,Parsnip]
+    80 Cant_spend_more_than_currently_available_money[5]
+                                   0                          -0 
+    81 Cant_spend_more_than_currently_available_money[6]
+                                -115                          -0 
+    82 Cant_spend_more_than_currently_available_money[7]
+                                 -75                          -0 
+    83 Cant_spend_more_than_currently_available_money[8]
+                                 -15                          -0 
+    84 Cant_spend_more_than_currently_available_money[9]
+                                 -15                          -0 
+    85 Cant_spend_more_than_currently_available_money[10]
+                                 -15                          -0 
+    86 Cant_spend_more_than_currently_available_money[11]
+                                 -45                          -0 
+    87 Cant_spend_more_than_currently_available_money[12]
+                                -150                          -0 
+    88 Cant_spend_more_than_currently_available_money[13]
+                                -150                          -0 
+    89 Cant_spend_more_than_currently_available_money[14]
+                                -220                          -0 
+    90 Cant_spend_more_than_currently_available_money[15]
+                                -325                          -0 
+    91 Cant_plant_or_harvest_more_than_available_workers[1]
+                                   0                          -0 
+    92 Cant_plant_or_harvest_more_than_available_workers[2]
+                                   0                          -0 
+    93 Cant_plant_or_harvest_more_than_available_workers[3]
+                                  -5                          -0 
+    94 Cant_plant_or_harvest_more_than_available_workers[4]
+                                   0                          -0 
+    95 Cant_plant_or_harvest_more_than_available_workers[5]
+                                   0                          -0 
+    96 Cant_plant_or_harvest_more_than_available_workers[6]
+                                  -2                          -0 
+    97 Cant_plant_or_harvest_more_than_available_workers[7]
+                                   0                          -0 
+    98 Cant_plant_or_harvest_more_than_available_workers[8]
+                                   0                          -0 
+    99 Cant_plant_or_harvest_more_than_available_workers[9]
+                                   0                          -0 
+   100 Cant_plant_or_harvest_more_than_available_workers[10]
+                                   0                          -0 
+   101 Cant_plant_or_harvest_more_than_available_workers[11]
+                                   0                          -0 
+   102 Cant_plant_or_harvest_more_than_available_workers[12]
+                                   0                          -0 
+   103 Cant_plant_or_harvest_more_than_available_workers[13]
+                                   0                          -0 
+   104 Cant_plant_or_harvest_more_than_available_workers[14]
+                                  -2                          -0 
+   105 Cant_plant_or_harvest_more_than_available_workers[15]
+                                  -5                          -0 
+   106 Cant_plant_more_than_available_plots[1]
+                                 -95                          -0 
+   107 Cant_plant_more_than_available_plots[2]
+                                 -95                          -0 
+   108 Cant_plant_more_than_available_plots[3]
+                                 -95                          -0 
+   109 Cant_plant_more_than_available_plots[4]
+                                 -95                          -0 
+   110 Cant_plant_more_than_available_plots[5]
+                                 -95                          -0 
+   111 Cant_plant_more_than_available_plots[6]
+                                 -97                          -0 
+   112 Cant_plant_more_than_available_plots[7]
+                                 -95                          -0 
+   113 Cant_plant_more_than_available_plots[8]
+                                 -92                          -0 
+   114 Cant_plant_more_than_available_plots[9]
+                                 -92                          -0 
+   115 Cant_plant_more_than_available_plots[10]
+                                 -92                          -0 
+   116 Cant_plant_more_than_available_plots[11]
+                                 -92                          -0 
+   117 Cant_plant_more_than_available_plots[12]
+                                 -97                          -0 
+   118 Cant_plant_more_than_available_plots[13]
+                                 -96                          -0 
+   119 Cant_plant_more_than_available_plots[14]
+                                 -95                          -0 
+   120 Cant_plant_more_than_available_plots[15]
+                                -100                          -0 
+   121 Set_started_planting_in_past[1,Parsnip]
                                    0            -0             = 
-    66 Set_started_planting_in_past[1,Cauliflower]
+   122 Set_started_planting_in_past[1,Cauliflower]
                                    0            -0             = 
-    67 Set_started_planting_in_past[2,Parsnip]
+   123 Set_started_planting_in_past[2,Parsnip]
                                    0            -0             = 
-    68 Set_started_planting_in_past[2,Cauliflower]
+   124 Set_started_planting_in_past[2,Cauliflower]
                                    0            -0             = 
-    69 Set_started_planting_in_past[3,Parsnip]
+   125 Set_started_planting_in_past[3,Parsnip]
                                    0            -0             = 
-    70 Set_started_planting_in_past[3,Cauliflower]
+   126 Set_started_planting_in_past[3,Cauliflower]
                                    0            -0             = 
-    71 Set_started_planting_in_past[4,Parsnip]
+   127 Set_started_planting_in_past[4,Parsnip]
                                    0            -0             = 
-    72 Set_started_planting_in_past[4,Cauliflower]
+   128 Set_started_planting_in_past[4,Cauliflower]
                                    0            -0             = 
-    73 Set_started_planting_in_past[5,Parsnip]
+   129 Set_started_planting_in_past[5,Parsnip]
                                    0            -0             = 
-    74 Set_started_planting_in_past[5,Cauliflower]
+   130 Set_started_planting_in_past[5,Cauliflower]
                                    0            -0             = 
-    75 Set_started_planting_in_past[6,Parsnip]
+   131 Set_started_planting_in_past[6,Parsnip]
                                    0            -0             = 
-    76 Set_started_planting_in_past[6,Cauliflower]
+   132 Set_started_planting_in_past[6,Cauliflower]
                                    0            -0             = 
-    77 Set_started_planting_in_past[7,Parsnip]
+   133 Set_started_planting_in_past[7,Parsnip]
                                    0            -0             = 
-    78 Set_started_planting_in_past[7,Cauliflower]
+   134 Set_started_planting_in_past[7,Cauliflower]
                                    0            -0             = 
-    79 Set_started_planting_in_past[8,Parsnip]
+   135 Set_started_planting_in_past[8,Parsnip]
                                    0            -0             = 
-    80 Set_started_planting_in_past[8,Cauliflower]
+   136 Set_started_planting_in_past[8,Cauliflower]
                                    0            -0             = 
-    81 Set_planted_in_past[1,Parsnip]
+   137 Set_started_planting_in_past[9,Parsnip]
                                    0            -0             = 
-    82 Set_planted_in_past[1,Cauliflower]
+   138 Set_started_planting_in_past[9,Cauliflower]
                                    0            -0             = 
-    83 Set_planted_in_past[2,Parsnip]
+   139 Set_started_planting_in_past[10,Parsnip]
                                    0            -0             = 
-    84 Set_planted_in_past[2,Cauliflower]
+   140 Set_started_planting_in_past[10,Cauliflower]
                                    0            -0             = 
-    85 Set_planted_in_past[3,Parsnip]
+   141 Set_started_planting_in_past[11,Parsnip]
                                    0            -0             = 
-    86 Set_planted_in_past[3,Cauliflower]
+   142 Set_started_planting_in_past[11,Cauliflower]
                                    0            -0             = 
-    87 Set_planted_in_past[4,Parsnip]
+   143 Set_started_planting_in_past[12,Parsnip]
                                    0            -0             = 
-    88 Set_planted_in_past[4,Cauliflower]
+   144 Set_started_planting_in_past[12,Cauliflower]
                                    0            -0             = 
-    89 Set_planted_in_past[5,Parsnip]
+   145 Set_started_planting_in_past[13,Parsnip]
                                    0            -0             = 
-    90 Set_planted_in_past[5,Cauliflower]
+   146 Set_started_planting_in_past[13,Cauliflower]
                                    0            -0             = 
-    91 Set_planted_in_past[6,Parsnip]
+   147 Set_started_planting_in_past[14,Parsnip]
                                    0            -0             = 
-    92 Set_planted_in_past[6,Cauliflower]
+   148 Set_started_planting_in_past[14,Cauliflower]
                                    0            -0             = 
-    93 Set_planted_in_past[7,Parsnip]
+   149 Set_started_planting_in_past[15,Parsnip]
                                    0            -0             = 
-    94 Set_planted_in_past[7,Cauliflower]
+   150 Set_started_planting_in_past[15,Cauliflower]
                                    0            -0             = 
-    95 Set_planted_in_past[8,Parsnip]
+   151 Set_planted_in_past[1,Parsnip]
                                    0            -0             = 
-    96 Set_planted_in_past[8,Cauliflower]
+   152 Set_planted_in_past[1,Cauliflower]
                                    0            -0             = 
-    97 Set_started_harvesting_in_past[1,Parsnip]
+   153 Set_planted_in_past[2,Parsnip]
                                    0            -0             = 
-    98 Set_started_harvesting_in_past[1,Cauliflower]
+   154 Set_planted_in_past[2,Cauliflower]
                                    0            -0             = 
-    99 Set_started_harvesting_in_past[2,Parsnip]
+   155 Set_planted_in_past[3,Parsnip]
                                    0            -0             = 
-   100 Set_started_harvesting_in_past[2,Cauliflower]
+   156 Set_planted_in_past[3,Cauliflower]
                                    0            -0             = 
-   101 Set_started_harvesting_in_past[3,Parsnip]
+   157 Set_planted_in_past[4,Parsnip]
                                    0            -0             = 
-   102 Set_started_harvesting_in_past[3,Cauliflower]
+   158 Set_planted_in_past[4,Cauliflower]
                                    0            -0             = 
-   103 Set_started_harvesting_in_past[4,Parsnip]
+   159 Set_planted_in_past[5,Parsnip]
                                    0            -0             = 
-   104 Set_started_harvesting_in_past[4,Cauliflower]
+   160 Set_planted_in_past[5,Cauliflower]
                                    0            -0             = 
-   105 Set_started_harvesting_in_past[5,Parsnip]
+   161 Set_planted_in_past[6,Parsnip]
                                    0            -0             = 
-   106 Set_started_harvesting_in_past[5,Cauliflower]
+   162 Set_planted_in_past[6,Cauliflower]
                                    0            -0             = 
-   107 Set_started_harvesting_in_past[6,Parsnip]
+   163 Set_planted_in_past[7,Parsnip]
                                    0            -0             = 
-   108 Set_started_harvesting_in_past[6,Cauliflower]
+   164 Set_planted_in_past[7,Cauliflower]
                                    0            -0             = 
-   109 Set_started_harvesting_in_past[7,Parsnip]
+   165 Set_planted_in_past[8,Parsnip]
                                    0            -0             = 
-   110 Set_started_harvesting_in_past[7,Cauliflower]
+   166 Set_planted_in_past[8,Cauliflower]
                                    0            -0             = 
-   111 Set_started_harvesting_in_past[8,Parsnip]
+   167 Set_planted_in_past[9,Parsnip]
                                    0            -0             = 
-   112 Set_started_harvesting_in_past[8,Cauliflower]
+   168 Set_planted_in_past[9,Cauliflower]
                                    0            -0             = 
-   113 Set_growing[1,Parsnip]
+   169 Set_planted_in_past[10,Parsnip]
+                                   0            -0             = 
+   170 Set_planted_in_past[10,Cauliflower]
+                                   0            -0             = 
+   171 Set_planted_in_past[11,Parsnip]
+                                   0            -0             = 
+   172 Set_planted_in_past[11,Cauliflower]
+                                   0            -0             = 
+   173 Set_planted_in_past[12,Parsnip]
+                                   0            -0             = 
+   174 Set_planted_in_past[12,Cauliflower]
+                                   0            -0             = 
+   175 Set_planted_in_past[13,Parsnip]
+                                   0            -0             = 
+   176 Set_planted_in_past[13,Cauliflower]
+                                   0            -0             = 
+   177 Set_planted_in_past[14,Parsnip]
+                                   0            -0             = 
+   178 Set_planted_in_past[14,Cauliflower]
+                                   0            -0             = 
+   179 Set_planted_in_past[15,Parsnip]
+                                   0            -0             = 
+   180 Set_planted_in_past[15,Cauliflower]
+                                   0            -0             = 
+   181 Set_started_harvesting_in_past[1,Parsnip]
+                                   0            -0             = 
+   182 Set_started_harvesting_in_past[1,Cauliflower]
+                                   0            -0             = 
+   183 Set_started_harvesting_in_past[2,Parsnip]
+                                   0            -0             = 
+   184 Set_started_harvesting_in_past[2,Cauliflower]
+                                   0            -0             = 
+   185 Set_started_harvesting_in_past[3,Parsnip]
+                                   0            -0             = 
+   186 Set_started_harvesting_in_past[3,Cauliflower]
+                                   0            -0             = 
+   187 Set_started_harvesting_in_past[4,Parsnip]
+                                   0            -0             = 
+   188 Set_started_harvesting_in_past[4,Cauliflower]
+                                   0            -0             = 
+   189 Set_started_harvesting_in_past[5,Parsnip]
+                                   0            -0             = 
+   190 Set_started_harvesting_in_past[5,Cauliflower]
+                                   0            -0             = 
+   191 Set_started_harvesting_in_past[6,Parsnip]
+                                   0            -0             = 
+   192 Set_started_harvesting_in_past[6,Cauliflower]
+                                   0            -0             = 
+   193 Set_started_harvesting_in_past[7,Parsnip]
+                                   0            -0             = 
+   194 Set_started_harvesting_in_past[7,Cauliflower]
+                                   0            -0             = 
+   195 Set_started_harvesting_in_past[8,Parsnip]
+                                   0            -0             = 
+   196 Set_started_harvesting_in_past[8,Cauliflower]
+                                   0            -0             = 
+   197 Set_started_harvesting_in_past[9,Parsnip]
+                                   0            -0             = 
+   198 Set_started_harvesting_in_past[9,Cauliflower]
+                                   0            -0             = 
+   199 Set_started_harvesting_in_past[10,Parsnip]
+                                   0            -0             = 
+   200 Set_started_harvesting_in_past[10,Cauliflower]
+                                   0            -0             = 
+   201 Set_started_harvesting_in_past[11,Parsnip]
+                                   0            -0             = 
+   202 Set_started_harvesting_in_past[11,Cauliflower]
+                                   0            -0             = 
+   203 Set_started_harvesting_in_past[12,Parsnip]
+                                   0            -0             = 
+   204 Set_started_harvesting_in_past[12,Cauliflower]
+                                   0            -0             = 
+   205 Set_started_harvesting_in_past[13,Parsnip]
+                                   0            -0             = 
+   206 Set_started_harvesting_in_past[13,Cauliflower]
+                                   0            -0             = 
+   207 Set_started_harvesting_in_past[14,Parsnip]
+                                   0            -0             = 
+   208 Set_started_harvesting_in_past[14,Cauliflower]
+                                   0            -0             = 
+   209 Set_started_harvesting_in_past[15,Parsnip]
+                                   0            -0             = 
+   210 Set_started_harvesting_in_past[15,Cauliflower]
+                                   0            -0             = 
+   211 Set_growing[1,Parsnip]
                                    0            -0               
-   114 Set_growing[1,Cauliflower]
+   212 Set_growing[1,Cauliflower]
                                    0            -0               
-   115 Set_growing[2,Parsnip]
+   213 Set_growing[2,Parsnip]
                                    0            -0               
-   116 Set_growing[2,Cauliflower]
+   214 Set_growing[2,Cauliflower]
                                    0            -0               
-   117 Set_growing[3,Parsnip]
+   215 Set_growing[3,Parsnip]
                                    0            -0               
-   118 Set_growing[3,Cauliflower]
+   216 Set_growing[3,Cauliflower]
                                    0            -0               
-   119 Set_growing[4,Parsnip]
+   217 Set_growing[4,Parsnip]
                                    0            -0               
-   120 Set_growing[4,Cauliflower]
+   218 Set_growing[4,Cauliflower]
                                    0            -0               
-   121 Set_growing[5,Parsnip]
+   219 Set_growing[5,Parsnip]
                                    0            -0               
-   122 Set_growing[5,Cauliflower]
+   220 Set_growing[5,Cauliflower]
                                    0            -0               
-   123 Set_growing[6,Parsnip]
+   221 Set_growing[6,Parsnip]
                                    0            -0               
-   124 Set_growing[6,Cauliflower]
+   222 Set_growing[6,Cauliflower]
                                    0            -0               
-   125 Set_growing[7,Parsnip]
+   223 Set_growing[7,Parsnip]
                                    0            -0               
-   126 Set_growing[7,Cauliflower]
+   224 Set_growing[7,Cauliflower]
                                    0            -0               
-   127 Set_growing[8,Parsnip]
+   225 Set_growing[8,Parsnip]
                                    0            -0               
-   128 Set_growing[8,Cauliflower]
+   226 Set_growing[8,Cauliflower]
                                    0            -0               
-   129 Set_planting[1,Parsnip]
+   227 Set_growing[9,Parsnip]
                                    0            -0               
-   130 Set_planting[1,Cauliflower]
+   228 Set_growing[9,Cauliflower]
                                    0            -0               
-   131 Set_planting[2,Parsnip]
+   229 Set_growing[10,Parsnip]
                                    0            -0               
-   132 Set_planting[2,Cauliflower]
+   230 Set_growing[10,Cauliflower]
+                                   1            -0               
+   231 Set_growing[11,Parsnip]
                                    0            -0               
-   133 Set_planting[3,Parsnip]
+   232 Set_growing[11,Cauliflower]
                                    0            -0               
-   134 Set_planting[3,Cauliflower]
+   233 Set_growing[12,Parsnip]
                                    0            -0               
-   135 Set_planting[4,Parsnip]
+   234 Set_growing[12,Cauliflower]
                                    0            -0               
-   136 Set_planting[4,Cauliflower]
+   235 Set_growing[13,Parsnip]
                                    0            -0               
-   137 Set_planting[5,Parsnip]
+   236 Set_growing[13,Cauliflower]
                                    0            -0               
-   138 Set_planting[5,Cauliflower]
+   237 Set_growing[14,Parsnip]
                                    0            -0               
-   139 Set_planting[6,Parsnip]
+   238 Set_growing[14,Cauliflower]
                                    0            -0               
-   140 Set_planting[6,Cauliflower]
+   239 Set_growing[15,Parsnip]
                                    0            -0               
-   141 Set_planting[7,Parsnip]
+   240 Set_growing[15,Cauliflower]
                                    0            -0               
-   142 Set_planting[7,Cauliflower]
+   241 Set_planting[1,Parsnip]
                                    0            -0               
-   143 Set_planting[8,Parsnip]
+   242 Set_planting[1,Cauliflower]
                                    0            -0               
-   144 Set_planting[8,Cauliflower]
+   243 Set_planting[2,Parsnip]
                                    0            -0               
-   145 Set_harvesting[1,Parsnip]
+   244 Set_planting[2,Cauliflower]
                                    0            -0               
-   146 Set_harvesting[1,Cauliflower]
+   245 Set_planting[3,Parsnip]
                                    0            -0               
-   147 Set_harvesting[2,Parsnip]
+   246 Set_planting[3,Cauliflower]
                                    0            -0               
-   148 Set_harvesting[2,Cauliflower]
+   247 Set_planting[4,Parsnip]
                                    0            -0               
-   149 Set_harvesting[3,Parsnip]
+   248 Set_planting[4,Cauliflower]
                                    0            -0               
-   150 Set_harvesting[3,Cauliflower]
+   249 Set_planting[5,Parsnip]
                                    0            -0               
-   151 Set_harvesting[4,Parsnip]
+   250 Set_planting[5,Cauliflower]
                                    0            -0               
-   152 Set_harvesting[4,Cauliflower]
+   251 Set_planting[6,Parsnip]
                                    0            -0               
-   153 Set_harvesting[5,Parsnip]
+   252 Set_planting[6,Cauliflower]
                                    0            -0               
-   154 Set_harvesting[5,Cauliflower]
+   253 Set_planting[7,Parsnip]
                                    0            -0               
-   155 Set_harvesting[6,Parsnip]
+   254 Set_planting[7,Cauliflower]
                                    0            -0               
-   156 Set_harvesting[6,Cauliflower]
+   255 Set_planting[8,Parsnip]
                                    0            -0               
-   157 Set_harvesting[7,Parsnip]
+   256 Set_planting[8,Cauliflower]
                                    0            -0               
-   158 Set_harvesting[7,Cauliflower]
+   257 Set_planting[9,Parsnip]
                                    0            -0               
-   159 Set_harvesting[8,Parsnip]
+   258 Set_planting[9,Cauliflower]
                                    0            -0               
-   160 Set_harvesting[8,Cauliflower]
+   259 Set_planting[10,Parsnip]
                                    0            -0               
-   161 Cant_plant_or_harvest_more_than_number_of_workers[1]
-                                   0                           1 
-   162 Cant_plant_or_harvest_more_than_number_of_workers[2]
-                                   0                           1 
-   163 Cant_plant_or_harvest_more_than_number_of_workers[3]
-                                   0                           1 
-   164 Cant_plant_or_harvest_more_than_number_of_workers[4]
-                                   0                           1 
-   165 Cant_plant_or_harvest_more_than_number_of_workers[5]
-                                   0                           1 
-   166 Cant_plant_or_harvest_more_than_number_of_workers[6]
-                                   0                           1 
-   167 Cant_plant_or_harvest_more_than_number_of_workers[7]
-                                   0                           1 
-   168 Cant_plant_or_harvest_more_than_number_of_workers[8]
-                                   0                           1 
-   169 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[1]
-                                   0                           1 
-   170 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[2]
-                                   0                           1 
-   171 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[3]
-                                   1                           1 
-   172 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[4]
-                                   1                           1 
-   173 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[5]
-                                   1                           1 
-   174 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[6]
-                                   0                           1 
-   175 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[7]
-                                   0                           1 
-   176 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[8]
-                                   0                           1 
-   177 Set_planted[2,Parsnip]
+   260 Set_planting[10,Cauliflower]
+                                   0            -0               
+   261 Set_planting[11,Parsnip]
+                                   0            -0               
+   262 Set_planting[11,Cauliflower]
+                                   0            -0               
+   263 Set_planting[12,Parsnip]
+                                   0            -0               
+   264 Set_planting[12,Cauliflower]
+                                   1            -0               
+   265 Set_planting[13,Parsnip]
+                                   0            -0               
+   266 Set_planting[13,Cauliflower]
+                                   0            -0               
+   267 Set_planting[14,Parsnip]
+                                   0            -0               
+   268 Set_planting[14,Cauliflower]
+                                   0            -0               
+   269 Set_planting[15,Parsnip]
+                                   0            -0               
+   270 Set_planting[15,Cauliflower]
+                                   0            -0               
+   271 Set_harvesting[1,Parsnip]
+                                   0            -0               
+   272 Set_harvesting[1,Cauliflower]
+                                   0            -0               
+   273 Set_harvesting[2,Parsnip]
+                                   0            -0               
+   274 Set_harvesting[2,Cauliflower]
+                                   0            -0               
+   275 Set_harvesting[3,Parsnip]
+                                   0            -0               
+   276 Set_harvesting[3,Cauliflower]
+                                   0            -0               
+   277 Set_harvesting[4,Parsnip]
+                                   0            -0               
+   278 Set_harvesting[4,Cauliflower]
+                                   0            -0               
+   279 Set_harvesting[5,Parsnip]
+                                   0            -0               
+   280 Set_harvesting[5,Cauliflower]
+                                   0            -0               
+   281 Set_harvesting[6,Parsnip]
+                                   0            -0               
+   282 Set_harvesting[6,Cauliflower]
+                                   0            -0               
+   283 Set_harvesting[7,Parsnip]
+                                   0            -0               
+   284 Set_harvesting[7,Cauliflower]
+                                   0            -0               
+   285 Set_harvesting[8,Parsnip]
+                                   0            -0               
+   286 Set_harvesting[8,Cauliflower]
+                                   0            -0               
+   287 Set_harvesting[9,Parsnip]
+                                   0            -0               
+   288 Set_harvesting[9,Cauliflower]
+                                   0            -0               
+   289 Set_harvesting[10,Parsnip]
+                                   0            -0               
+   290 Set_harvesting[10,Cauliflower]
+                                   0            -0               
+   291 Set_harvesting[11,Parsnip]
+                                   0            -0               
+   292 Set_harvesting[11,Cauliflower]
+                                   0            -0               
+   293 Set_harvesting[12,Parsnip]
+                                   0            -0               
+   294 Set_harvesting[12,Cauliflower]
+                                   0            -0               
+   295 Set_harvesting[13,Parsnip]
+                                   0            -0               
+   296 Set_harvesting[13,Cauliflower]
+                                   0            -0               
+   297 Set_harvesting[14,Parsnip]
+                                   0            -0               
+   298 Set_harvesting[14,Cauliflower]
+                                   0            -0               
+   299 Set_harvesting[15,Parsnip]
+                                   0            -0               
+   300 Set_harvesting[15,Cauliflower]
+                                   0            -0               
+   301 Cant_plant_or_harvest_more_than_number_of_workers[1]
+                                   0                           5 
+   302 Cant_plant_or_harvest_more_than_number_of_workers[2]
+                                   5                           5 
+   303 Cant_plant_or_harvest_more_than_number_of_workers[3]
+                                   0                           5 
+   304 Cant_plant_or_harvest_more_than_number_of_workers[4]
+                                   0                           5 
+   305 Cant_plant_or_harvest_more_than_number_of_workers[5]
+                                   5                           5 
+   306 Cant_plant_or_harvest_more_than_number_of_workers[6]
+                                   0                           5 
+   307 Cant_plant_or_harvest_more_than_number_of_workers[7]
+                                   3                           5 
+   308 Cant_plant_or_harvest_more_than_number_of_workers[8]
+                                   2                           5 
+   309 Cant_plant_or_harvest_more_than_number_of_workers[9]
+                                   3                           5 
+   310 Cant_plant_or_harvest_more_than_number_of_workers[10]
+                                   2                           5 
+   311 Cant_plant_or_harvest_more_than_number_of_workers[11]
+                                   3                           5 
+   312 Cant_plant_or_harvest_more_than_number_of_workers[12]
+                                   3                           5 
+   313 Cant_plant_or_harvest_more_than_number_of_workers[13]
+                                   2                           5 
+   314 Cant_plant_or_harvest_more_than_number_of_workers[14]
+                                   3                           5 
+   315 Cant_plant_or_harvest_more_than_number_of_workers[15]
+                                   0                           5 
+   316 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[1]
+                                   0                         100 
+   317 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[2]
+                                   5                         100 
+   318 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[3]
+                                   0                         100 
+   319 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[4]
+                                   0                         100 
+   320 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[5]
+                                   5                         100 
+   321 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[6]
+                                   0                         100 
+   322 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[7]
+                                   3                         100 
+   323 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[8]
+                                   2                         100 
+   324 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[9]
+                                   3                         100 
+   325 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[10]
+                                   3                         100 
+   326 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[11]
+                                   3                         100 
+   327 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[12]
+                                   3                         100 
+   328 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[13]
+                                   2                         100 
+   329 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[14]
+                                   3                         100 
+   330 Cant_plant_or_grow_or_harvest_more_than_number_of_plots[15]
+                                   0                         100 
+   331 Set_planted[2,Cauliflower]
                                    0                          -0 
-   178 Set_planted[2,Cauliflower]
+   332 Set_planted[3,Parsnip]
                                    0                          -0 
-   179 Set_planted[3,Parsnip]
+   333 Set_planted[3,Cauliflower]
                                    0                          -0 
-   180 Set_planted[3,Cauliflower]
+   334 Set_planted[4,Parsnip]
                                    0                          -0 
-   181 Set_planted[4,Parsnip]
+   335 Set_planted[4,Cauliflower]
                                    0                          -0 
-   182 Set_planted[4,Cauliflower]
+   336 Set_planted[5,Parsnip]
                                    0                          -0 
-   183 Set_planted[5,Parsnip]
+   337 Set_planted[5,Cauliflower]
                                    0                          -0 
-   184 Set_planted[5,Cauliflower]
+   338 Set_planted[6,Parsnip]
                                    0                          -0 
-   185 Set_planted[6,Parsnip]
+   339 Set_planted[6,Cauliflower]
                                    0                          -0 
-   186 Set_planted[6,Cauliflower]
+   340 Set_planted[7,Parsnip]
                                    0                          -0 
-   187 Set_planted[7,Parsnip]
+   341 Set_planted[7,Cauliflower]
                                    0                          -0 
-   188 Set_planted[7,Cauliflower]
+   342 Set_planted[8,Parsnip]
                                    0                          -0 
-   189 Set_planted[8,Parsnip]
+   343 Set_planted[8,Cauliflower]
                                    0                          -0 
-   190 Set_planted[8,Cauliflower]
+   344 Set_planted[9,Parsnip]
                                    0                          -0 
-   191 Set_planted_in_first_days[1,Parsnip]
+   345 Set_planted[9,Cauliflower]
                                    0                          -0 
-   192 Set_planted_in_first_days[1,Cauliflower]
+   346 Set_planted[10,Parsnip]
                                    0                          -0 
-   193 Set_grown[6,Parsnip]
+   347 Set_planted[10,Cauliflower]
                                    0                          -0 
-   194 Set_grown[7,Parsnip]
+   348 Set_planted[11,Parsnip]
                                    0                          -0 
-   195 Set_grown[8,Parsnip]
+   349 Set_planted[11,Cauliflower]
                                    0                          -0 
-   196 Set_grown_in_first_days[1,Parsnip]
+   350 Set_planted[12,Parsnip]
                                    0                          -0 
-   197 Set_grown_in_first_days[1,Cauliflower]
+   351 Set_planted[12,Cauliflower]
                                    0                          -0 
-   198 Set_grown_in_first_days[2,Parsnip]
+   352 Set_planted[13,Parsnip]
                                    0                          -0 
-   199 Set_grown_in_first_days[2,Cauliflower]
+   353 Set_planted[13,Cauliflower]
                                    0                          -0 
-   200 Set_grown_in_first_days[3,Parsnip]
+   354 Set_planted[14,Parsnip]
                                    0                          -0 
-   201 Set_grown_in_first_days[3,Cauliflower]
+   355 Set_planted[14,Cauliflower]
                                    0                          -0 
-   202 Set_grown_in_first_days[4,Parsnip]
+   356 Set_planted[15,Parsnip]
                                    0                          -0 
-   203 Set_grown_in_first_days[4,Cauliflower]
+   357 Set_planted[15,Cauliflower]
                                    0                          -0 
-   204 Set_grown_in_first_days[5,Parsnip]
+   358 Set_planted_in_first_days[1,Parsnip]
                                    0                          -0 
-   205 Set_grown_in_first_days[5,Cauliflower]
+   359 Set_planted_in_first_days[1,Cauliflower]
                                    0                          -0 
-   206 Set_grown_in_first_days[6,Cauliflower]
+   360 Set_planted_in_first_days[2,Parsnip]
                                    0                          -0 
-   207 Set_grown_in_first_days[7,Cauliflower]
+   361 Set_grown[4,Parsnip]
                                    0                          -0 
-   208 Set_grown_in_first_days[8,Cauliflower]
+   362 Set_grown[5,Parsnip]
                                    0                          -0 
-   209 Set_Harvested[8,Parsnip]
+   363 Set_grown[6,Parsnip]
                                    0                          -0 
-   210 Set_Harvested_in_first_days[1,Parsnip]
+   364 Set_grown[7,Parsnip]
                                    0                          -0 
-   211 Set_Harvested_in_first_days[1,Cauliflower]
+   365 Set_grown[8,Parsnip]
                                    0                          -0 
-   212 Set_Harvested_in_first_days[2,Parsnip]
+   366 Set_grown[9,Parsnip]
                                    0                          -0 
-   213 Set_Harvested_in_first_days[2,Cauliflower]
+   367 Set_grown[10,Parsnip]
                                    0                          -0 
-   214 Set_Harvested_in_first_days[3,Parsnip]
+   368 Set_grown[11,Parsnip]
                                    0                          -0 
-   215 Set_Harvested_in_first_days[3,Cauliflower]
+   369 Set_grown[12,Parsnip]
                                    0                          -0 
-   216 Set_Harvested_in_first_days[4,Parsnip]
+   370 Set_grown[13,Parsnip]
                                    0                          -0 
-   217 Set_Harvested_in_first_days[4,Cauliflower]
+   371 Set_grown[14,Parsnip]
                                    0                          -0 
-   218 Set_Harvested_in_first_days[5,Parsnip]
+   372 Set_grown[14,Cauliflower]
                                    0                          -0 
-   219 Set_Harvested_in_first_days[5,Cauliflower]
+   373 Set_grown[15,Parsnip]
                                    0                          -0 
-   220 Set_Harvested_in_first_days[6,Parsnip]
+   374 Set_grown[15,Cauliflower]
                                    0                          -0 
-   221 Set_Harvested_in_first_days[6,Cauliflower]
+   375 Set_grown_in_first_days[1,Parsnip]
                                    0                          -0 
-   222 Set_Harvested_in_first_days[7,Parsnip]
+   376 Set_grown_in_first_days[1,Cauliflower]
                                    0                          -0 
-   223 Set_Harvested_in_first_days[7,Cauliflower]
+   377 Set_grown_in_first_days[2,Parsnip]
                                    0                          -0 
-   224 Set_Harvested_in_first_days[8,Cauliflower]
+   378 Set_grown_in_first_days[2,Cauliflower]
                                    0                          -0 
-   225 Profit                     15                             
+   379 Set_grown_in_first_days[3,Parsnip]
+                                   0                          -0 
+   380 Set_grown_in_first_days[3,Cauliflower]
+                                   0                          -0 
+   381 Set_grown_in_first_days[4,Cauliflower]
+                                   0                          -0 
+   382 Set_grown_in_first_days[5,Cauliflower]
+                                   0                          -0 
+   383 Set_grown_in_first_days[6,Cauliflower]
+                                   0                          -0 
+   384 Set_grown_in_first_days[7,Cauliflower]
+                                   0                          -0 
+   385 Set_grown_in_first_days[8,Cauliflower]
+                                   0                          -0 
+   386 Set_grown_in_first_days[9,Cauliflower]
+                                   0                          -0 
+   387 Set_grown_in_first_days[10,Cauliflower]
+                                   0                          -0 
+   388 Set_grown_in_first_days[11,Cauliflower]
+                                   0                          -0 
+   389 Set_grown_in_first_days[12,Cauliflower]
+                                   0                          -0 
+   390 Set_grown_in_first_days[13,Cauliflower]
+                                   0                          -0 
+   391 Set_Harvested[6,Parsnip]
+                                   0                          -0 
+   392 Set_Harvested[7,Parsnip]
+                                   0                          -0 
+   393 Set_Harvested[8,Parsnip]
+                                   0                          -0 
+   394 Set_Harvested[9,Parsnip]
+                                   0                          -0 
+   395 Set_Harvested[10,Parsnip]
+                                   0                          -0 
+   396 Set_Harvested[11,Parsnip]
+                                   0                          -0 
+   397 Set_Harvested[12,Parsnip]
+                                   0                          -0 
+   398 Set_Harvested[13,Parsnip]
+                                   0                          -0 
+   399 Set_Harvested[14,Parsnip]
+                                   0                          -0 
+   400 Set_Harvested[15,Parsnip]
+                                   0                          -0 
+   401 Set_Harvested[15,Cauliflower]
+                                   0                          -0 
+   402 Set_Harvested_in_first_days[1,Parsnip]
+                                   0                          -0 
+   403 Set_Harvested_in_first_days[1,Cauliflower]
+                                   0                          -0 
+   404 Set_Harvested_in_first_days[2,Parsnip]
+                                   0                          -0 
+   405 Set_Harvested_in_first_days[2,Cauliflower]
+                                   0                          -0 
+   406 Set_Harvested_in_first_days[3,Parsnip]
+                                   0                          -0 
+   407 Set_Harvested_in_first_days[3,Cauliflower]
+                                   0                          -0 
+   408 Set_Harvested_in_first_days[4,Parsnip]
+                                   0                          -0 
+   409 Set_Harvested_in_first_days[4,Cauliflower]
+                                   0                          -0 
+   410 Set_Harvested_in_first_days[5,Parsnip]
+                                   0                          -0 
+   411 Set_Harvested_in_first_days[5,Cauliflower]
+                                   0                          -0 
+   412 Set_Harvested_in_first_days[6,Cauliflower]
+                                   0                          -0 
+   413 Set_Harvested_in_first_days[7,Cauliflower]
+                                   0                          -0 
+   414 Set_Harvested_in_first_days[8,Cauliflower]
+                                   0                          -0 
+   415 Set_Harvested_in_first_days[9,Cauliflower]
+                                   0                          -0 
+   416 Set_Harvested_in_first_days[10,Cauliflower]
+                                   0                          -0 
+   417 Set_Harvested_in_first_days[11,Cauliflower]
+                                   0                          -0 
+   418 Set_Harvested_in_first_days[12,Cauliflower]
+                                   0                          -0 
+   419 Set_Harvested_in_first_days[13,Cauliflower]
+                                   0                          -0 
+   420 Set_Harvested_in_first_days[14,Cauliflower]
+                                   0                          -0 
+   421 Profit                    225                             
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
      1 started_planting[1,Parsnip]
-                    *              1             0               
+                    *              5             0               
      2 started_planting[1,Cauliflower]
                     *              0             0               
      3 started_planting[2,Parsnip]
@@ -480,385 +872,735 @@ Objective:  Profit = 15 (MAXimum)
     10 started_planting[5,Cauliflower]
                     *              0             0               
     11 started_planting[6,Parsnip]
-                    *              0             0               
+                    *              3             0               
     12 started_planting[6,Cauliflower]
                     *              0             0               
     13 started_planting[7,Parsnip]
-                    *              0             0               
+                    *              2             0               
     14 started_planting[7,Cauliflower]
                     *              0             0               
     15 started_planting[8,Parsnip]
-                    *              0             0               
+                    *              3             0               
     16 started_planting[8,Cauliflower]
                     *              0             0               
-    17 started_planting_in_past[1,Parsnip]
+    17 started_planting[9,Parsnip]
                     *              0             0               
-    18 started_planting_in_past[1,Cauliflower]
+    18 started_planting[9,Cauliflower]
                     *              0             0               
-    19 started_planting_in_past[2,Parsnip]
+    19 started_planting[10,Parsnip]
                     *              0             0               
-    20 started_planting_in_past[2,Cauliflower]
+    20 started_planting[10,Cauliflower]
                     *              0             0               
-    21 started_planting_in_past[3,Parsnip]
+    21 started_planting[11,Parsnip]
+                    *              2             0               
+    22 started_planting[11,Cauliflower]
                     *              0             0               
-    22 started_planting_in_past[3,Cauliflower]
+    23 started_planting[12,Parsnip]
                     *              0             0               
-    23 started_planting_in_past[4,Parsnip]
+    24 started_planting[12,Cauliflower]
                     *              0             0               
-    24 started_planting_in_past[4,Cauliflower]
+    25 started_planting[13,Parsnip]
                     *              0             0               
-    25 started_planting_in_past[5,Parsnip]
+    26 started_planting[13,Cauliflower]
                     *              0             0               
-    26 started_planting_in_past[5,Cauliflower]
+    27 started_planting[14,Parsnip]
                     *              0             0               
-    27 started_planting_in_past[6,Parsnip]
+    28 started_planting[14,Cauliflower]
                     *              0             0               
-    28 started_planting_in_past[6,Cauliflower]
+    29 started_planting[15,Parsnip]
                     *              0             0               
-    29 started_planting_in_past[7,Parsnip]
+    30 started_planting[15,Cauliflower]
                     *              0             0               
-    30 started_planting_in_past[7,Cauliflower]
+    31 started_planting_in_past[1,Parsnip]
                     *              0             0               
-    31 started_planting_in_past[8,Parsnip]
+    32 started_planting_in_past[1,Cauliflower]
                     *              0             0               
-    32 started_planting_in_past[8,Cauliflower]
+    33 started_planting_in_past[2,Parsnip]
+                    *              5             0               
+    34 started_planting_in_past[2,Cauliflower]
                     *              0             0               
-    33 planting[1,Parsnip]
+    35 started_planting_in_past[3,Parsnip]
                     *              0             0               
-    34 planting[1,Cauliflower]
+    36 started_planting_in_past[3,Cauliflower]
                     *              0             0               
-    35 planting[2,Parsnip]
+    37 started_planting_in_past[4,Parsnip]
                     *              0             0               
-    36 planting[2,Cauliflower]
+    38 started_planting_in_past[4,Cauliflower]
                     *              0             0               
-    37 planting[3,Parsnip]
+    39 started_planting_in_past[5,Parsnip]
                     *              0             0               
-    38 planting[3,Cauliflower]
+    40 started_planting_in_past[5,Cauliflower]
                     *              0             0               
-    39 planting[4,Parsnip]
+    41 started_planting_in_past[6,Parsnip]
                     *              0             0               
-    40 planting[4,Cauliflower]
+    42 started_planting_in_past[6,Cauliflower]
                     *              0             0               
-    41 planting[5,Parsnip]
+    43 started_planting_in_past[7,Parsnip]
+                    *              3             0               
+    44 started_planting_in_past[7,Cauliflower]
                     *              0             0               
-    42 planting[5,Cauliflower]
+    45 started_planting_in_past[8,Parsnip]
+                    *              2             0               
+    46 started_planting_in_past[8,Cauliflower]
                     *              0             0               
-    43 planting[6,Parsnip]
+    47 started_planting_in_past[9,Parsnip]
+                    *              3             0               
+    48 started_planting_in_past[9,Cauliflower]
                     *              0             0               
-    44 planting[6,Cauliflower]
+    49 started_planting_in_past[10,Parsnip]
                     *              0             0               
-    45 planting[7,Parsnip]
+    50 started_planting_in_past[10,Cauliflower]
                     *              0             0               
-    46 planting[7,Cauliflower]
+    51 started_planting_in_past[11,Parsnip]
                     *              0             0               
-    47 planting[8,Parsnip]
+    52 started_planting_in_past[11,Cauliflower]
                     *              0             0               
-    48 planting[8,Cauliflower]
+    53 started_planting_in_past[12,Parsnip]
+                    *              2             0               
+    54 started_planting_in_past[12,Cauliflower]
                     *              0             0               
-    49 planted[1,Parsnip]
+    55 started_planting_in_past[13,Parsnip]
                     *              0             0               
-    50 planted[1,Cauliflower]
+    56 started_planting_in_past[13,Cauliflower]
                     *              0             0               
-    51 planted[2,Parsnip]
+    57 started_planting_in_past[14,Parsnip]
+                    *              0             0               
+    58 started_planting_in_past[14,Cauliflower]
+                    *              0             0               
+    59 started_planting_in_past[15,Parsnip]
+                    *              0             0               
+    60 started_planting_in_past[15,Cauliflower]
+                    *              0             0               
+    61 planting[1,Parsnip]
+                    *              0             0               
+    62 planting[1,Cauliflower]
+                    *              0             0               
+    63 planting[2,Parsnip]
+                    *              5             0               
+    64 planting[2,Cauliflower]
+                    *              0             0               
+    65 planting[3,Parsnip]
+                    *              0             0               
+    66 planting[3,Cauliflower]
+                    *              0             0               
+    67 planting[4,Parsnip]
+                    *              0             0               
+    68 planting[4,Cauliflower]
+                    *              0             0               
+    69 planting[5,Parsnip]
+                    *              0             0               
+    70 planting[5,Cauliflower]
+                    *              0             0               
+    71 planting[6,Parsnip]
+                    *              0             0               
+    72 planting[6,Cauliflower]
+                    *              0             0               
+    73 planting[7,Parsnip]
+                    *              3             0               
+    74 planting[7,Cauliflower]
+                    *              0             0               
+    75 planting[8,Parsnip]
+                    *              2             0               
+    76 planting[8,Cauliflower]
+                    *              0             0               
+    77 planting[9,Parsnip]
+                    *              3             0               
+    78 planting[9,Cauliflower]
+                    *              0             0               
+    79 planting[10,Parsnip]
+                    *              0             0               
+    80 planting[10,Cauliflower]
+                    *              0             0               
+    81 planting[11,Parsnip]
+                    *              0             0               
+    82 planting[11,Cauliflower]
+                    *              0             0               
+    83 planting[12,Parsnip]
+                    *              2             0               
+    84 planting[12,Cauliflower]
                     *              1             0               
-    52 planted[2,Cauliflower]
+    85 planting[13,Parsnip]
                     *              0             0               
-    53 planted[3,Parsnip]
+    86 planting[13,Cauliflower]
                     *              0             0               
-    54 planted[3,Cauliflower]
+    87 planting[14,Parsnip]
                     *              0             0               
-    55 planted[4,Parsnip]
+    88 planting[14,Cauliflower]
                     *              0             0               
-    56 planted[4,Cauliflower]
+    89 planting[15,Parsnip]
                     *              0             0               
-    57 planted[5,Parsnip]
+    90 planting[15,Cauliflower]
                     *              0             0               
-    58 planted[5,Cauliflower]
+    91 planted[1,Parsnip]
                     *              0             0               
-    59 planted[6,Parsnip]
+    92 planted[1,Cauliflower]
                     *              0             0               
-    60 planted[6,Cauliflower]
+    93 planted[2,Parsnip]
                     *              0             0               
-    61 planted[7,Parsnip]
+    94 planted[2,Cauliflower]
                     *              0             0               
-    62 planted[7,Cauliflower]
+    95 planted[3,Parsnip]
+                    *              5             0               
+    96 planted[3,Cauliflower]
                     *              0             0               
-    63 planted[8,Parsnip]
+    97 planted[4,Parsnip]
                     *              0             0               
-    64 planted[8,Cauliflower]
+    98 planted[4,Cauliflower]
                     *              0             0               
-    65 planted_in_past[1,Parsnip]
+    99 planted[5,Parsnip]
                     *              0             0               
-    66 planted_in_past[1,Cauliflower]
+   100 planted[5,Cauliflower]
                     *              0             0               
-    67 planted_in_past[2,Parsnip]
+   101 planted[6,Parsnip]
                     *              0             0               
-    68 planted_in_past[2,Cauliflower]
+   102 planted[6,Cauliflower]
                     *              0             0               
-    69 planted_in_past[3,Parsnip]
+   103 planted[7,Parsnip]
+                    *              0             0               
+   104 planted[7,Cauliflower]
+                    *              0             0               
+   105 planted[8,Parsnip]
+                    *              3             0               
+   106 planted[8,Cauliflower]
+                    *              0             0               
+   107 planted[9,Parsnip]
+                    *              2             0               
+   108 planted[9,Cauliflower]
+                    *              0             0               
+   109 planted[10,Parsnip]
+                    *              3             0               
+   110 planted[10,Cauliflower]
+                    *              0             0               
+   111 planted[11,Parsnip]
+                    *              0             0               
+   112 planted[11,Cauliflower]
+                    *              0             0               
+   113 planted[12,Parsnip]
+                    *              0             0               
+   114 planted[12,Cauliflower]
+                    *              0             0               
+   115 planted[13,Parsnip]
+                    *              2             0               
+   116 planted[13,Cauliflower]
+                    *              0             0               
+   117 planted[14,Parsnip]
+                    *              0             0               
+   118 planted[14,Cauliflower]
+                    *              0             0               
+   119 planted[15,Parsnip]
+                    *              0             0               
+   120 planted[15,Cauliflower]
+                    *              0             0               
+   121 planted_in_past[1,Parsnip]
+                    *              0             0               
+   122 planted_in_past[1,Cauliflower]
+                    *              0             0               
+   123 planted_in_past[2,Parsnip]
+                    *              0             0               
+   124 planted_in_past[2,Cauliflower]
+                    *              0             0               
+   125 planted_in_past[3,Parsnip]
+                    *              0             0               
+   126 planted_in_past[3,Cauliflower]
+                    *              0             0               
+   127 planted_in_past[4,Parsnip]
+                    *              0             0               
+   128 planted_in_past[4,Cauliflower]
+                    *              0             0               
+   129 planted_in_past[5,Parsnip]
+                    *              0             0               
+   130 planted_in_past[5,Cauliflower]
+                    *              0             0               
+   131 planted_in_past[6,Parsnip]
+                    *              0             0               
+   132 planted_in_past[6,Cauliflower]
+                    *              0             0               
+   133 planted_in_past[7,Parsnip]
+                    *              0             0               
+   134 planted_in_past[7,Cauliflower]
+                    *              0             0               
+   135 planted_in_past[8,Parsnip]
+                    *              0             0               
+   136 planted_in_past[8,Cauliflower]
+                    *              0             0               
+   137 planted_in_past[9,Parsnip]
+                    *              0             0               
+   138 planted_in_past[9,Cauliflower]
+                    *              0             0               
+   139 planted_in_past[10,Parsnip]
+                    *              0             0               
+   140 planted_in_past[10,Cauliflower]
+                    *              0             0               
+   141 planted_in_past[11,Parsnip]
+                    *              0             0               
+   142 planted_in_past[11,Cauliflower]
+                    *              0             0               
+   143 planted_in_past[12,Parsnip]
+                    *              0             0               
+   144 planted_in_past[12,Cauliflower]
+                    *              0             0               
+   145 planted_in_past[13,Parsnip]
+                    *              0             0               
+   146 planted_in_past[13,Cauliflower]
+                    *              0             0               
+   147 planted_in_past[14,Parsnip]
+                    *              0             0               
+   148 planted_in_past[14,Cauliflower]
+                    *              0             0               
+   149 planted_in_past[15,Parsnip]
+                    *              0             0               
+   150 planted_in_past[15,Cauliflower]
+                    *              0             0               
+   151 growing[1,Parsnip]
+                    *              0             0               
+   152 growing[1,Cauliflower]
+                    *              0             0               
+   153 growing[2,Parsnip]
+                    *              0             0               
+   154 growing[2,Cauliflower]
+                    *              0             0               
+   155 growing[3,Parsnip]
+                    *              0             0               
+   156 growing[3,Cauliflower]
+                    *              0             0               
+   157 growing[4,Parsnip]
+                    *              0             0               
+   158 growing[4,Cauliflower]
+                    *              0             0               
+   159 growing[5,Parsnip]
+                    *              0             0               
+   160 growing[5,Cauliflower]
+                    *              0             0               
+   161 growing[6,Parsnip]
+                    *              0             0               
+   162 growing[6,Cauliflower]
+                    *              0             0               
+   163 growing[7,Parsnip]
+                    *              0             0               
+   164 growing[7,Cauliflower]
+                    *              0             0               
+   165 growing[8,Parsnip]
+                    *              0             0               
+   166 growing[8,Cauliflower]
+                    *              0             0               
+   167 growing[9,Parsnip]
+                    *              0             0               
+   168 growing[9,Cauliflower]
+                    *              0             0               
+   169 growing[10,Parsnip]
+                    *              0             0               
+   170 growing[10,Cauliflower]
                     *              1             0               
-    70 planted_in_past[3,Cauliflower]
+   171 growing[11,Parsnip]
                     *              0             0               
-    71 planted_in_past[4,Parsnip]
-                    *              1             0               
-    72 planted_in_past[4,Cauliflower]
+   172 growing[11,Cauliflower]
                     *              0             0               
-    73 planted_in_past[5,Parsnip]
-                    *              1             0               
-    74 planted_in_past[5,Cauliflower]
+   173 growing[12,Parsnip]
                     *              0             0               
-    75 planted_in_past[6,Parsnip]
+   174 growing[12,Cauliflower]
                     *              0             0               
-    76 planted_in_past[6,Cauliflower]
+   175 growing[13,Parsnip]
                     *              0             0               
-    77 planted_in_past[7,Parsnip]
+   176 growing[13,Cauliflower]
                     *              0             0               
-    78 planted_in_past[7,Cauliflower]
+   177 growing[14,Parsnip]
                     *              0             0               
-    79 planted_in_past[8,Parsnip]
+   178 growing[14,Cauliflower]
                     *              0             0               
-    80 planted_in_past[8,Cauliflower]
+   179 growing[15,Parsnip]
                     *              0             0               
-    81 growing[1,Parsnip]
+   180 growing[15,Cauliflower]
                     *              0             0               
-    82 growing[1,Cauliflower]
+   181 grown[1,Parsnip]
                     *              0             0               
-    83 growing[2,Parsnip]
+   182 grown[1,Cauliflower]
                     *              0             0               
-    84 growing[2,Cauliflower]
+   183 grown[2,Parsnip]
                     *              0             0               
-    85 growing[3,Parsnip]
-                    *              1             0               
-    86 growing[3,Cauliflower]
+   184 grown[2,Cauliflower]
                     *              0             0               
-    87 growing[4,Parsnip]
-                    *              1             0               
-    88 growing[4,Cauliflower]
+   185 grown[3,Parsnip]
                     *              0             0               
-    89 growing[5,Parsnip]
-                    *              1             0               
-    90 growing[5,Cauliflower]
+   186 grown[3,Cauliflower]
                     *              0             0               
-    91 growing[6,Parsnip]
+   187 grown[4,Parsnip]
+                    *              5             0               
+   188 grown[4,Cauliflower]
                     *              0             0               
-    92 growing[6,Cauliflower]
+   189 grown[5,Parsnip]
                     *              0             0               
-    93 growing[7,Parsnip]
+   190 grown[5,Cauliflower]
                     *              0             0               
-    94 growing[7,Cauliflower]
+   191 grown[6,Parsnip]
                     *              0             0               
-    95 growing[8,Parsnip]
+   192 grown[6,Cauliflower]
                     *              0             0               
-    96 growing[8,Cauliflower]
+   193 grown[7,Parsnip]
                     *              0             0               
-    97 grown[1,Parsnip]
+   194 grown[7,Cauliflower]
                     *              0             0               
-    98 grown[1,Cauliflower]
+   195 grown[8,Parsnip]
                     *              0             0               
-    99 grown[2,Parsnip]
+   196 grown[8,Cauliflower]
                     *              0             0               
-   100 grown[2,Cauliflower]
+   197 grown[9,Parsnip]
+                    *              3             0               
+   198 grown[9,Cauliflower]
                     *              0             0               
-   101 grown[3,Parsnip]
+   199 grown[10,Parsnip]
+                    *              2             0               
+   200 grown[10,Cauliflower]
                     *              0             0               
-   102 grown[3,Cauliflower]
+   201 grown[11,Parsnip]
+                    *              3             0               
+   202 grown[11,Cauliflower]
                     *              0             0               
-   103 grown[4,Parsnip]
+   203 grown[12,Parsnip]
                     *              0             0               
-   104 grown[4,Cauliflower]
+   204 grown[12,Cauliflower]
                     *              0             0               
-   105 grown[5,Parsnip]
+   205 grown[13,Parsnip]
                     *              0             0               
-   106 grown[5,Cauliflower]
+   206 grown[13,Cauliflower]
                     *              0             0               
-   107 grown[6,Parsnip]
-                    *              1             0               
-   108 grown[6,Cauliflower]
+   207 grown[14,Parsnip]
+                    *              2             0               
+   208 grown[14,Cauliflower]
                     *              0             0               
-   109 grown[7,Parsnip]
+   209 grown[15,Parsnip]
                     *              0             0               
-   110 grown[7,Cauliflower]
+   210 grown[15,Cauliflower]
                     *              0             0               
-   111 grown[8,Parsnip]
+   211 started_harvesting[1,Parsnip]
                     *              0             0               
-   112 grown[8,Cauliflower]
+   212 started_harvesting[1,Cauliflower]
                     *              0             0               
-   113 started_harvesting[1,Parsnip]
+   213 started_harvesting[2,Parsnip]
                     *              0             0               
-   114 started_harvesting[1,Cauliflower]
+   214 started_harvesting[2,Cauliflower]
                     *              0             0               
-   115 started_harvesting[2,Parsnip]
+   215 started_harvesting[3,Parsnip]
                     *              0             0               
-   116 started_harvesting[2,Cauliflower]
+   216 started_harvesting[3,Cauliflower]
                     *              0             0               
-   117 started_harvesting[3,Parsnip]
+   217 started_harvesting[4,Parsnip]
+                    *              5             0               
+   218 started_harvesting[4,Cauliflower]
                     *              0             0               
-   118 started_harvesting[3,Cauliflower]
+   219 started_harvesting[5,Parsnip]
                     *              0             0               
-   119 started_harvesting[4,Parsnip]
+   220 started_harvesting[5,Cauliflower]
                     *              0             0               
-   120 started_harvesting[4,Cauliflower]
+   221 started_harvesting[6,Parsnip]
                     *              0             0               
-   121 started_harvesting[5,Parsnip]
+   222 started_harvesting[6,Cauliflower]
                     *              0             0               
-   122 started_harvesting[5,Cauliflower]
+   223 started_harvesting[7,Parsnip]
                     *              0             0               
-   123 started_harvesting[6,Parsnip]
+   224 started_harvesting[7,Cauliflower]
                     *              0             0               
-   124 started_harvesting[6,Cauliflower]
+   225 started_harvesting[8,Parsnip]
                     *              0             0               
-   125 started_harvesting[7,Parsnip]
+   226 started_harvesting[8,Cauliflower]
                     *              0             0               
-   126 started_harvesting[7,Cauliflower]
+   227 started_harvesting[9,Parsnip]
+                    *              2             0               
+   228 started_harvesting[9,Cauliflower]
                     *              0             0               
-   127 started_harvesting[8,Parsnip]
+   229 started_harvesting[10,Parsnip]
+                    *              3             0               
+   230 started_harvesting[10,Cauliflower]
                     *              0             0               
-   128 started_harvesting[8,Cauliflower]
+   231 started_harvesting[11,Parsnip]
                     *              0             0               
-   129 started_harvesting_in_past[1,Parsnip]
+   232 started_harvesting[11,Cauliflower]
                     *              0             0               
-   130 started_harvesting_in_past[1,Cauliflower]
+   233 started_harvesting[12,Parsnip]
+                    *              2             0               
+   234 started_harvesting[12,Cauliflower]
                     *              0             0               
-   131 started_harvesting_in_past[2,Parsnip]
+   235 started_harvesting[13,Parsnip]
+                    *              3             0               
+   236 started_harvesting[13,Cauliflower]
                     *              0             0               
-   132 started_harvesting_in_past[2,Cauliflower]
+   237 started_harvesting[14,Parsnip]
                     *              0             0               
-   133 started_harvesting_in_past[3,Parsnip]
+   238 started_harvesting[14,Cauliflower]
                     *              0             0               
-   134 started_harvesting_in_past[3,Cauliflower]
+   239 started_harvesting[15,Parsnip]
                     *              0             0               
-   135 started_harvesting_in_past[4,Parsnip]
+   240 started_harvesting[15,Cauliflower]
                     *              0             0               
-   136 started_harvesting_in_past[4,Cauliflower]
+   241 started_harvesting_in_past[1,Parsnip]
                     *              0             0               
-   137 started_harvesting_in_past[5,Parsnip]
+   242 started_harvesting_in_past[1,Cauliflower]
                     *              0             0               
-   138 started_harvesting_in_past[5,Cauliflower]
+   243 started_harvesting_in_past[2,Parsnip]
                     *              0             0               
-   139 started_harvesting_in_past[6,Parsnip]
+   244 started_harvesting_in_past[2,Cauliflower]
                     *              0             0               
-   140 started_harvesting_in_past[6,Cauliflower]
+   245 started_harvesting_in_past[3,Parsnip]
                     *              0             0               
-   141 started_harvesting_in_past[7,Parsnip]
+   246 started_harvesting_in_past[3,Cauliflower]
                     *              0             0               
-   142 started_harvesting_in_past[7,Cauliflower]
+   247 started_harvesting_in_past[4,Parsnip]
                     *              0             0               
-   143 started_harvesting_in_past[8,Parsnip]
+   248 started_harvesting_in_past[4,Cauliflower]
                     *              0             0               
-   144 started_harvesting_in_past[8,Cauliflower]
+   249 started_harvesting_in_past[5,Parsnip]
+                    *              5             0               
+   250 started_harvesting_in_past[5,Cauliflower]
                     *              0             0               
-   145 harvesting[1,Parsnip]
+   251 started_harvesting_in_past[6,Parsnip]
                     *              0             0               
-   146 harvesting[1,Cauliflower]
+   252 started_harvesting_in_past[6,Cauliflower]
                     *              0             0               
-   147 harvesting[2,Parsnip]
+   253 started_harvesting_in_past[7,Parsnip]
                     *              0             0               
-   148 harvesting[2,Cauliflower]
+   254 started_harvesting_in_past[7,Cauliflower]
                     *              0             0               
-   149 harvesting[3,Parsnip]
+   255 started_harvesting_in_past[8,Parsnip]
                     *              0             0               
-   150 harvesting[3,Cauliflower]
+   256 started_harvesting_in_past[8,Cauliflower]
                     *              0             0               
-   151 harvesting[4,Parsnip]
+   257 started_harvesting_in_past[9,Parsnip]
                     *              0             0               
-   152 harvesting[4,Cauliflower]
+   258 started_harvesting_in_past[9,Cauliflower]
                     *              0             0               
-   153 harvesting[5,Parsnip]
+   259 started_harvesting_in_past[10,Parsnip]
+                    *              2             0               
+   260 started_harvesting_in_past[10,Cauliflower]
                     *              0             0               
-   154 harvesting[5,Cauliflower]
+   261 started_harvesting_in_past[11,Parsnip]
+                    *              3             0               
+   262 started_harvesting_in_past[11,Cauliflower]
                     *              0             0               
-   155 harvesting[6,Parsnip]
+   263 started_harvesting_in_past[12,Parsnip]
                     *              0             0               
-   156 harvesting[6,Cauliflower]
+   264 started_harvesting_in_past[12,Cauliflower]
                     *              0             0               
-   157 harvesting[7,Parsnip]
+   265 started_harvesting_in_past[13,Parsnip]
+                    *              2             0               
+   266 started_harvesting_in_past[13,Cauliflower]
                     *              0             0               
-   158 harvesting[7,Cauliflower]
+   267 started_harvesting_in_past[14,Parsnip]
+                    *              3             0               
+   268 started_harvesting_in_past[14,Cauliflower]
                     *              0             0               
-   159 harvesting[8,Parsnip]
+   269 started_harvesting_in_past[15,Parsnip]
                     *              0             0               
-   160 harvesting[8,Cauliflower]
+   270 started_harvesting_in_past[15,Cauliflower]
                     *              0             0               
-   161 harvested[1,Parsnip]
+   271 harvesting[1,Parsnip]
                     *              0             0               
-   162 harvested[1,Cauliflower]
+   272 harvesting[1,Cauliflower]
                     *              0             0               
-   163 harvested[2,Parsnip]
+   273 harvesting[2,Parsnip]
                     *              0             0               
-   164 harvested[2,Cauliflower]
+   274 harvesting[2,Cauliflower]
                     *              0             0               
-   165 harvested[3,Parsnip]
+   275 harvesting[3,Parsnip]
                     *              0             0               
-   166 harvested[3,Cauliflower]
+   276 harvesting[3,Cauliflower]
                     *              0             0               
-   167 harvested[4,Parsnip]
+   277 harvesting[4,Parsnip]
                     *              0             0               
-   168 harvested[4,Cauliflower]
+   278 harvesting[4,Cauliflower]
                     *              0             0               
-   169 harvested[5,Parsnip]
+   279 harvesting[5,Parsnip]
+                    *              5             0               
+   280 harvesting[5,Cauliflower]
                     *              0             0               
-   170 harvested[5,Cauliflower]
+   281 harvesting[6,Parsnip]
                     *              0             0               
-   171 harvested[6,Parsnip]
+   282 harvesting[6,Cauliflower]
                     *              0             0               
-   172 harvested[6,Cauliflower]
+   283 harvesting[7,Parsnip]
                     *              0             0               
-   173 harvested[7,Parsnip]
+   284 harvesting[7,Cauliflower]
                     *              0             0               
-   174 harvested[7,Cauliflower]
+   285 harvesting[8,Parsnip]
                     *              0             0               
-   175 harvested[8,Parsnip]
-                    *              1             0               
-   176 harvested[8,Cauliflower]
+   286 harvesting[8,Cauliflower]
                     *              0             0               
-   177 available_plots[1]
-                    *              1             0               
-   178 available_plots[2]
+   287 harvesting[9,Parsnip]
                     *              0             0               
-   179 available_plots[3]
+   288 harvesting[9,Cauliflower]
                     *              0             0               
-   180 available_plots[4]
+   289 harvesting[10,Parsnip]
+                    *              2             0               
+   290 harvesting[10,Cauliflower]
                     *              0             0               
-   181 available_plots[5]
+   291 harvesting[11,Parsnip]
+                    *              3             0               
+   292 harvesting[11,Cauliflower]
                     *              0             0               
-   182 available_plots[6]
+   293 harvesting[12,Parsnip]
                     *              0             0               
-   183 available_plots[7]
-                    *              1             0               
-   184 available_plots[8]
-                    *              1             0               
-   185 available_workers[1]
-                    *              1             0               
-   186 available_workers[2]
-                    *              1             0               
-   187 available_workers[3]
-                    *              1             0               
-   188 available_workers[4]
-                    *              1             0               
-   189 available_workers[5]
-                    *              1             0               
-   190 available_workers[6]
-                    *              1             0               
-   191 available_workers[7]
-                    *              1             0               
-   192 available_workers[8]
-                    *              1             0               
-   193 available_money[1]
-                    *           1000             0               
-   194 available_money[2]
-                    *            980             0               
-   195 available_money[3]
-                    *            980             0               
-   196 available_money[4]
-                    *            980             0               
-   197 available_money[5]
-                    *            980             0               
-   198 available_money[6]
-                    *            980             0               
-   199 available_money[7]
-                    *            980             0               
-   200 available_money[8]
-                    *           1015             0               
+   294 harvesting[12,Cauliflower]
+                    *              0             0               
+   295 harvesting[13,Parsnip]
+                    *              2             0               
+   296 harvesting[13,Cauliflower]
+                    *              0             0               
+   297 harvesting[14,Parsnip]
+                    *              3             0               
+   298 harvesting[14,Cauliflower]
+                    *              0             0               
+   299 harvesting[15,Parsnip]
+                    *              0             0               
+   300 harvesting[15,Cauliflower]
+                    *              0             0               
+   301 harvested[1,Parsnip]
+                    *              0             0               
+   302 harvested[1,Cauliflower]
+                    *              0             0               
+   303 harvested[2,Parsnip]
+                    *              0             0               
+   304 harvested[2,Cauliflower]
+                    *              0             0               
+   305 harvested[3,Parsnip]
+                    *              0             0               
+   306 harvested[3,Cauliflower]
+                    *              0             0               
+   307 harvested[4,Parsnip]
+                    *              0             0               
+   308 harvested[4,Cauliflower]
+                    *              0             0               
+   309 harvested[5,Parsnip]
+                    *              0             0               
+   310 harvested[5,Cauliflower]
+                    *              0             0               
+   311 harvested[6,Parsnip]
+                    *              5             0               
+   312 harvested[6,Cauliflower]
+                    *              0             0               
+   313 harvested[7,Parsnip]
+                    *              0             0               
+   314 harvested[7,Cauliflower]
+                    *              0             0               
+   315 harvested[8,Parsnip]
+                    *              0             0               
+   316 harvested[8,Cauliflower]
+                    *              0             0               
+   317 harvested[9,Parsnip]
+                    *              0             0               
+   318 harvested[9,Cauliflower]
+                    *              0             0               
+   319 harvested[10,Parsnip]
+                    *              0             0               
+   320 harvested[10,Cauliflower]
+                    *              0             0               
+   321 harvested[11,Parsnip]
+                    *              2             0               
+   322 harvested[11,Cauliflower]
+                    *              0             0               
+   323 harvested[12,Parsnip]
+                    *              3             0               
+   324 harvested[12,Cauliflower]
+                    *              0             0               
+   325 harvested[13,Parsnip]
+                    *              0             0               
+   326 harvested[13,Cauliflower]
+                    *              0             0               
+   327 harvested[14,Parsnip]
+                    *              2             0               
+   328 harvested[14,Cauliflower]
+                    *              0             0               
+   329 harvested[15,Parsnip]
+                    *              3             0               
+   330 harvested[15,Cauliflower]
+                    *              0             0               
+   331 available_plots[1]
+                    *            100             0               
+   332 available_plots[2]
+                    *             95             0               
+   333 available_plots[3]
+                    *             95             0               
+   334 available_plots[4]
+                    *             95             0               
+   335 available_plots[5]
+                    *             95             0               
+   336 available_plots[6]
+                    *            100             0               
+   337 available_plots[7]
+                    *             97             0               
+   338 available_plots[8]
+                    *             95             0               
+   339 available_plots[9]
+                    *             92             0               
+   340 available_plots[10]
+                    *             92             0               
+   341 available_plots[11]
+                    *             94             0               
+   342 available_plots[12]
+                    *             97             0               
+   343 available_plots[13]
+                    *             96             0               
+   344 available_plots[14]
+                    *             95             0               
+   345 available_plots[15]
+                    *            100             0               
+   346 available_workers[1]
+                    *              5             0               
+   347 available_workers[2]
+                    *              0             0               
+   348 available_workers[3]
+                    *              5             0               
+   349 available_workers[4]
+                    *              5             0               
+   350 available_workers[5]
+                    *              0             0               
+   351 available_workers[6]
+                    *              5             0               
+   352 available_workers[7]
+                    *              2             0               
+   353 available_workers[8]
+                    *              3             0               
+   354 available_workers[9]
+                    *              2             0               
+   355 available_workers[10]
+                    *              3             0               
+   356 available_workers[11]
+                    *              2             0               
+   357 available_workers[12]
+                    *              2             0               
+   358 available_workers[13]
+                    *              3             0               
+   359 available_workers[14]
+                    *              2             0               
+   360 available_workers[15]
+                    *              5             0               
+   361 available_money[1]
+                    *            100             0               
+   362 available_money[2]
+                    *              0             0               
+   363 available_money[3]
+                    *              0             0               
+   364 available_money[4]
+                    *              0             0               
+   365 available_money[5]
+                    *              0             0               
+   366 available_money[6]
+                    *            175             0               
+   367 available_money[7]
+                    *            115             0               
+   368 available_money[8]
+                    *             75             0               
+   369 available_money[9]
+                    *             15             0               
+   370 available_money[10]
+                    *             15             0               
+   371 available_money[11]
+                    *             85             0               
+   372 available_money[12]
+                    *            150             0               
+   373 available_money[13]
+                    *            150             0               
+   374 available_money[14]
+                    *            220             0               
+   375 available_money[15]
+                    *            325             0               
 
 Integer feasibility conditions:
 

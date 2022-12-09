@@ -1,12 +1,12 @@
-param day_count := 8;
-param plot_count := 1;
-param worker_count := 1;
-param initial_money := 1000;
+param day_count := 15;
+param plot_count := 100;
+param worker_count := 5;
+param initial_money := 100;
 
 set Crops := Parsnip Cauliflower;
 
 param growth_time := 
-	Parsnip			4
+	Parsnip			1
 	Cauliflower		12
 	;
 
@@ -21,7 +21,7 @@ param selling_price :=
 	;
 	
 param planting_time :=
-	Parsnip			1
+	Parsnip			2
 	Cauliflower		1
 	;
 	

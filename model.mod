@@ -67,7 +67,7 @@ s.t. Set_grown{d in Days, c in Crops: d > growth_time[c] + planting_time[c]}: gr
 
 s.t. Set_grown_in_first_days{d in Days, c in Crops: d <= growth_time[c] + planting_time[c]}: grown[d, c] <= 0;
 
-s.t. Set_Harvested{d in Days, c in Crops: d > growth_time[c] + planting_time[c] + harvest_time[c]}: grown[d, c] <= harvested[d - harvest_time[c], c];
+s.t. Set_Harvested{d in Days, c in Crops: d > growth_time[c] + planting_time[c] + harvest_time[c]}: harvested[d, c] <= started_harvesting[d - harvest_time[c], c];
 
 s.t. Set_Harvested_in_first_days{d in Days, c in Crops: d <= growth_time[c] + planting_time[c] + harvest_time[c]}: harvested[d, c] <= 0;
 
@@ -75,39 +75,65 @@ maximize Profit: sum{d in Days, c in Crops} (harvested[d, c] * selling_price[c] 
 solve;
 
 printf "\n\n==================================================\n";
-printf "Initial money: %d\n", initial_money;
-printf "Total money at the end: %d\n", available_money[day_count];
-printf "Profit: %d\n", Profit;
+printf "Starting money: %d\n", initial_money;
+printf "Number of workers: %d\n", worker_count;
+printf "Number of plots: %d\n", plot_count;
 printf "--------------------------------------------------\n";
 
 for{c in Crops: sum{d in Days} started_planting[d, c] > 0}
 {
-	printf "Purchased %d pcs of %s of %d value\n", sum{d in Days} started_planting[d, c], c, sum{d in Days} (started_planting[d, c] * purchase_price[c]);
+	printf "Purchased %d pcs of %s for %d value\n", sum{d in Days} started_planting[d, c], c, sum{d in Days} (started_planting[d, c] * purchase_price[c]);
 }
 
 for{c in Crops: sum{d in Days} grown[d, c] > 0}
 {
-	printf "Sold %d pcs of %s of %d value\n", sum{d in Days} harvested[d, c], c, sum{d in Days} (harvested[d, c] * selling_price[c]);
+	printf "Sold %d pcs of %s for %d value\n", sum{d in Days} harvested[d, c], c, sum{d in Days} (harvested[d, c] * selling_price[c]);
 }
+
+printf "--------------------------------------------------\n";
+printf "Total profit: %d\n", Profit;
 
 for{d in Days}
 {
 	printf "==================================================\n";
 	printf "Day %d:\n\n", d;
-	printf "Sold %d worth of crops\n", sum{c in Crops} harvested[d, c] * selling_price[c];
 	printf "Available money for purchase: %d\n", available_money[d];
-	printf "Purchased %d worth of crops\n", sum{c in Crops} started_planting[d, c] * purchase_price[c];
-	for{c in Crops}
+	printf "Available workers: %d\n", available_workers[d];
+	printf "Available plots: %d\n\n", available_plots[d];
+	
+	printf "Started planting %d pcs of crops for %d value\n", sum{c in Crops} started_planting[d, c], sum{c in Crops} started_planting[d, c] * purchase_price[c];
+	printf "Sold %d pcs of crops for %d value\n", sum{c in Crops} harvested[d, c], sum{c in Crops} harvested[d, c] * selling_price[c];
+	printf "Started harvesting %d pcs of crops\n", sum{c in Crops} started_harvesting[d, c];
+	
+	printf "--------------------------------------------------\n";
+	printf "Purchased & started planting:\n\n";
+	for{c in Crops: started_planting[d, c] > 0}
 	{
-		printf "--------------------------------------------------\n";
-		printf "Purchased & started planting %s: %d\n", c, started_planting[d, c];
-		printf "Planting %s: %d\n", c, planting[d, c];
-		printf "Planted %s: %d\n", c, planted[d, c];
-		printf "Growing %s: %d\n", c, growing[d, c];
-		printf "Grown %s: %d\n", c, grown[d, c];
-		printf "Started harvesting %s: %d\n", c, started_harvesting[d, c];
-		printf "Harvesting %s: %d\n", c, harvesting[d, c];
-		printf "Harvested & sold %s: %d\n", c, harvested[d, c];
+		printf "%d pcs of %s for %d value\n", started_planting[d, c], c, started_planting[d, c] * purchase_price[c];
+	}
+	printf "--------------------------------------------------\n";
+	printf "Finished planting:\n\n";
+	for{c in Crops: planted[d, c] > 0}
+	{
+		printf "%d pcs of %s\n", planted[d, c], c;
+	}
+	printf "--------------------------------------------------\n";
+	printf "Grown:\n\n";
+	for{c in Crops: grown[d, c] > 0}
+	{
+		printf "%d pcs of %s\n", grown[d, c], c;
+	}
+	printf "--------------------------------------------------\n";
+	printf "Started harvesting:\n\n";
+	for{c in Crops: started_harvesting[d, c] > 0}
+	{
+		printf "%d pcs of %s\n", started_harvesting[d, c], c;
+	}
+	printf "--------------------------------------------------\n";
+	printf "Harvested & sold:\n\n";
+	for{c in Crops: harvested[d, c] > 0}
+	{
+		printf "%d pcs of %s for %d value\n", harvested[d, c], c, harvested[d, c] * selling_price[c];
 	}
 }
 printf "==================================================\n\n";
