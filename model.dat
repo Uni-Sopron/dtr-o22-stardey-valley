@@ -1,32 +1,66 @@
-param day_count := 15;
-param plot_count := 100;
+param day_count := 16;
 param worker_count := 5;
-param initial_money := 100;
-
-set Crops := Parsnip Cauliflower;
-
+param plot_count := 7;
+param initial_money := 60;
+set Crops := BlueJazz Cauliflower Garlic GreenBean Kale Parsnip Potato Rhubarb Strawberry Tulip;
+param planting_time := 
+ BlueJazz       2
+ Cauliflower       3
+ Garlic       1
+ GreenBean       4
+ Kale       2
+ Parsnip       1
+ Potato       3
+ Rhubarb       4
+ Strawberry       5
+ Tulip       2
+;
 param growth_time := 
-	Parsnip			1
-	Cauliflower		12
-	;
-
+ BlueJazz       7
+ Cauliflower       12
+ Garlic       4
+ GreenBean       10
+ Kale       6
+ Parsnip       4
+ Potato       6
+ Rhubarb       13
+ Strawberry       8
+ Tulip       6
+;
+param harvest_time := 
+ BlueJazz       4
+ Cauliflower       2
+ Garlic       3
+ GreenBean       2
+ Kale       5
+ Parsnip       6
+ Potato       2
+ Rhubarb       1
+ Strawberry       1
+ Tulip       3
+;
 param purchase_price := 
-	Parsnip			20
-	Cauliflower		80
-	;
-
+ BlueJazz       30
+ Cauliflower       80
+ Garlic       40
+ GreenBean       60
+ Kale       70
+ Parsnip       20
+ Potato       50
+ Rhubarb       100
+ Strawberry       100
+ Tulip       20
+;
 param selling_price := 
-	Parsnip			35
-	Cauliflower		175
-	;
-	
-param planting_time :=
-	Parsnip			2
-	Cauliflower		1
-	;
-	
-param harvest_time :=
-	Parsnip			2
-	Cauliflower		1
-	;
+ BlueJazz       50
+ Cauliflower       175
+ Garlic       60
+ GreenBean       40
+ Kale       110
+ Parsnip       35
+ Potato       80
+ Rhubarb       220
+ Strawberry       120
+ Tulip       30
+;
 end;
