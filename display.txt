@@ -1,0 +1,437 @@
+
+
+==================================================
+Starting money: 60
+Number of workers: 5
+Number of plots: 7
+--------------------------------------------------
+Purchased 1 pcs of Garlic for 40 value
+Purchased 4 pcs of Parsnip for 80 value
+Sold 1 pcs of Garlic for 60 value
+Sold 4 pcs of Parsnip for 140 value
+--------------------------------------------------
+Total profit: 80
+==================================================
+Day 1:
+
+Available money for purchase: 60
+Available workers: 5
+Available plots: 7
+
+Started planting 1 pcs of crops for 40 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+1 pcs of Garlic for 40 value
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 2:
+
+Available money for purchase: 20
+Available workers: 5
+Available plots: 6
+
+Started planting 1 pcs of crops for 20 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+1 pcs of Parsnip for 20 value
+--------------------------------------------------
+Finished planting:
+
+1 pcs of Garlic
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 3:
+
+Available money for purchase: 0
+Available workers: 5
+Available plots: 5
+
+Started planting 0 pcs of crops for 0 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+1 pcs of Parsnip
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 4:
+
+Available money for purchase: 0
+Available workers: 5
+Available plots: 5
+
+Started planting 0 pcs of crops for 0 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 5:
+
+Available money for purchase: 0
+Available workers: 5
+Available plots: 5
+
+Started planting 0 pcs of crops for 0 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 6:
+
+Available money for purchase: 0
+Available workers: 5
+Available plots: 5
+
+Started planting 0 pcs of crops for 0 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 1 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+1 pcs of Garlic
+--------------------------------------------------
+Started harvesting:
+
+1 pcs of Garlic
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 7:
+
+Available money for purchase: 0
+Available workers: 4
+Available plots: 5
+
+Started planting 0 pcs of crops for 0 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 1 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+1 pcs of Parsnip
+--------------------------------------------------
+Started harvesting:
+
+1 pcs of Parsnip
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 8:
+
+Available money for purchase: 0
+Available workers: 3
+Available plots: 5
+
+Started planting 0 pcs of crops for 0 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 1 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+1 pcs of Parsnip
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 9:
+
+Available money for purchase: 60
+Available workers: 3
+Available plots: 5
+
+Started planting 2 pcs of crops for 40 value
+Sold 1 pcs of crops for 60 value
+Started harvesting 1 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+2 pcs of Parsnip for 40 value
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+1 pcs of Parsnip
+--------------------------------------------------
+Harvested & sold:
+
+1 pcs of Garlic for 60 value
+==================================================
+Day 10:
+
+Available money for purchase: 20
+Available workers: 1
+Available plots: 1
+
+Started planting 0 pcs of crops for 0 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 1 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+2 pcs of Parsnip
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+1 pcs of Parsnip
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 11:
+
+Available money for purchase: 20
+Available workers: 1
+Available plots: 1
+
+Started planting 1 pcs of crops for 20 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+1 pcs of Parsnip for 20 value
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 12:
+
+Available money for purchase: 0
+Available workers: 1
+Available plots: 0
+
+Started planting 0 pcs of crops for 0 value
+Sold 0 pcs of crops for 0 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+1 pcs of Parsnip
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+==================================================
+Day 13:
+
+Available money for purchase: 35
+Available workers: 2
+Available plots: 1
+
+Started planting 0 pcs of crops for 0 value
+Sold 1 pcs of crops for 35 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+1 pcs of Parsnip for 35 value
+==================================================
+Day 14:
+
+Available money for purchase: 70
+Available workers: 3
+Available plots: 2
+
+Started planting 0 pcs of crops for 0 value
+Sold 1 pcs of crops for 35 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+2 pcs of Parsnip
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+1 pcs of Parsnip for 35 value
+==================================================
+Day 15:
+
+Available money for purchase: 105
+Available workers: 4
+Available plots: 5
+
+Started planting 0 pcs of crops for 0 value
+Sold 1 pcs of crops for 35 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+1 pcs of Parsnip for 35 value
+==================================================
+Day 16:
+
+Available money for purchase: 140
+Available workers: 5
+Available plots: 6
+
+Started planting 0 pcs of crops for 0 value
+Sold 1 pcs of crops for 35 value
+Started harvesting 0 pcs of crops
+--------------------------------------------------
+Purchased & started planting:
+
+--------------------------------------------------
+Finished planting:
+
+--------------------------------------------------
+Grown:
+
+1 pcs of Parsnip
+--------------------------------------------------
+Started harvesting:
+
+--------------------------------------------------
+Harvested & sold:
+
+1 pcs of Parsnip for 35 value
+==================================================
+
